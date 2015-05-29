@@ -244,3 +244,6 @@ legoService.makeRequest("/ride/find_matching_rides",request, RequestMethod.POST)
 
 ```
 ## ORM Kit
+
+##License
+LegoRoid is under [Apache 2 license](http://www.apache.org/licenses/LICENSE-2.0.html).
