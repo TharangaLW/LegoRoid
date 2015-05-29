@@ -9,6 +9,5 @@ Development framework for Android
 ## HTTP REST Client
 
 ## ORM Kit
-
 ##License
 LegoRoid is under [Apache 2 license](http://www.apache.org/licenses/LICENSE-2.0.html).
