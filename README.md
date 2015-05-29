@@ -1,10 +1,10 @@
 # **Welcome to the LegoRoid**
 
-Development framework for Android platform
+Development framework for Android
 
-## UI to Model Parsing
+## UI to Model Parser
 
-## Model to UI Parsing
+## Model to UI Parser
 
 ## HTTP REST Client
 
