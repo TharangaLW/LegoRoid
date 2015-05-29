@@ -1,6 +1,6 @@
 # **Welcome to the LegoRoid**
 
-Development framework for Android platform
+Development framework for Android.
 ## UI to Model Parser
 
 Parse input data from UI to Java Model
