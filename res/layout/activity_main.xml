@@ -14,28 +14,69 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp"
-        android:ems="10" >
-
-        <requestFocus />
-    </EditText>
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="user id"
+        android:inputType="text" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/firstName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userId"
         android:layout_below="@+id/userId"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="79dp"
-        android:ems="10" />
-
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="first name"
+        android:inputType="text" />
+    
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/password"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="Button" />
+        android:layout_marginBottom="22dp"
+        android:text="Submit" />
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSubmit"
+        android:layout_below="@+id/firstName"
+        android:layout_marginTop="53dp" >
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Is employee" />
+
+    <TextView
+        android:id="@+id/txt_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="50" />
 
 </RelativeLayout>
